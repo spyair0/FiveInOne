@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+        android:id="@+id/bu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_gravity="center_vertical"/>
+    <Button
+    android:id="@+id/bu2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="传递数据"
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/bu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式启动"
+        android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/bu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部存储文件操作"
+        android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/bu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="handler处理"
+        android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
